@@ -1,9 +1,18 @@
 body {
-    background: blue;
+    background: rgb(184, 100, 128);
 }
 h1 {
     text-align: center;
     font-size: 300px;
     color: pink;
     font-family:'Abril Fatface', serif, monospace;
+}
+h2 {
+text-align: center;
+}
+p {
+text-align: center;
+}
+img {
+    text-align: center;
 }
