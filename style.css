@@ -1,5 +1,5 @@
 body {
-    background: rgb(153, 221, 226);
+    background: rgba(37, 108, 113, 0.356);
 }
 h1 {
     text-align: center;
@@ -26,12 +26,12 @@ table, th, td {
   }
 
   a:link {
-    color: red;
+    color: purple;
   }
   
   /* visited link */
   a:visited {
-    color: green;
+    color: pink;
   }
   
   /* mouse over link */
@@ -41,7 +41,7 @@ table, th, td {
   
   /* selected link */
   a:active {
-    color: blue;
+    color: black;
   }
 
   [class$=-effect] img {
@@ -49,5 +49,100 @@ table, th, td {
     margin: 0 !important;
     opacity: 0 !important;
   }
-  
- 
+h4 {
+  font-size: 100px;
+}
+.button {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button1 {background-color: #4CAF50;} /* Green */
+.button2 {background-color: #008CBA;} /* Blue */
+.button3 {background-color: pink;}
+
+.button1 {
+  font-family:'Abril Fatface', serif, monospace;
+  font-size: 15px;
+  background-color: white;
+  color: black;
+  border: 3px solid pink;
+}
+
+.button1:hover {
+  background-color: #42093b;
+  color: white;
+}
+
+.button2 {
+  font-family:'Abril Fatface', serif, monospace;
+  font-size: 15px;
+  background-color: white;
+  color: black;
+  border: 3px solid pink;
+}
+
+.button2:hover {
+  background-color: #42093b;
+  color: white;
+}
+
+.button3 {
+  font-family:'Abril Fatface', serif, monospace;
+  font-size: 15px;
+  background-color: white;
+  color: black;
+  border: 3px solid pink;
+}
+
+.button3:hover {
+  background-color: #42093b;
+  color: white;
+}
+
+div {
+  font-size: 65px;
+  color: rgb(41, 141, 172);
+  font-family:'Abril Fatface', serif, monospace;
+  text-align: center;
+}
+
+h3 {
+  border-radius: none;
+}
+
+
+.animate-charcter
+{
+  background-image: linear-gradient(
+    -225deg,
+    #120418 0%,
+    #c87eb2 29%,
+    #e8346d 67%,
+    #23061c 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+      font-size: 100px;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
