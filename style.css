@@ -1,5 +1,5 @@
 body {
-    background: rgb(184, 100, 128);
+    background: rgb(153, 221, 226);
 }
 h1 {
     text-align: center;
@@ -7,12 +7,47 @@ h1 {
     color: pink;
     font-family:'Abril Fatface', serif, monospace;
 }
-h2 {
+body {
 text-align: center;
+size: 500px;
 }
-p {
-text-align: center;
-}
+
 img {
     text-align: center;
 }
+table, th, td {
+    border: 5px solid;
+    width: 100%;
+    color: rgb(68, 45, 158);
+    background-color: blueviolet;
+    border-collapse: collapse;
+    font-size: 20px;
+    font-family: monospace;
+  }
+
+  a:link {
+    color: red;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: green;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: hotpink;
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
+  }
+
+  [class$=-effect] img {
+    vertical-align: top !important;
+    margin: 0 !important;
+    opacity: 0 !important;
+  }
+  
+ 
